@@ -8,7 +8,25 @@
 </head>
 <body>
 
-<a href="hello world">hello world</a>
+<form action="springmvc/testRest/1" method="post">
+    <input type="hidden" name="_method" value= "PUT"/>
+    <input type="submit" value="testRestPut"/>
+</form><br/><br/>
+ 
+<form action="springmvc/testRest/1" method="post">
+    <input type="hidden" name="_method" value="DELETE"/>
+    <input type="submit" value="TestRest DELETE"/>
+</form><br><br>
+ 
+<form action="springmvc/testRest" method="post">
+    <input type="submit" value="testRestPost">
+</form><br/><br/>
+ 
+<a href="springmvc/testRest/1">testRest</a><br/><br/>
+
+<a href="helloworld">hello world</a>
+
+<a href="springmvc/testPathVariable/1">testPathVariable</a><br/><br/>
 
 </body> 
 </html>
